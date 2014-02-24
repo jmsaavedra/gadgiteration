@@ -47,7 +47,7 @@ void loop(){
     currentVal = analogRead(gadgitCircuitIn);      
     //TODO: map currentVal to 0-1000 or 0-100 or something even
 
-    colorWipe(500, currentVal);
+    colorWipe(100, currentVal);
 
     Serial.print("GADGIT currentVal:\t");
     Serial.println(currentVal);

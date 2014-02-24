@@ -1,4 +1,25 @@
 
+// Fill the dots one after the other with a color
+void colorWipe(uint32_t c, int val) {
+   //assumes val is 0 - 1000, and that we have 10 LEDs
+   //TODO: map this properly
+   
+  int numLedsToLight = int(val/100);
+ 
+  for(uint16_t i=0; i<numLedsToLight; i++) {
+      strip.setPixelColor(i, strip.Color(0,c,0));
+  }
+  
+  for(uint16_t i=numLedsToLight; i<strip.numPixels(); i++) {
+      strip.setPixelColor(i, 0);
+  }
+  
+  strip.show();
+ // delay(10);
+}
+
+
+
 void setRainbowToVal(int val){
  //assumes val is 0 - 1000 
   uint16_t i, j;
@@ -13,17 +34,6 @@ void setRainbowToVal(int val){
 //  }  
 }
 
-// Fill the dots one after the other with a color
-void colorWipe(uint32_t c, int val) {
-  
-  int numLedsToLight = val/1000;
- 
-  for(uint16_t i=0; i<numLedsToLight; i++) {
-      strip.setPixelColor(i, c);
-      strip.show();
-      delay(10);
-  }
-}
 
 
 void rainbow(uint8_t wait) {

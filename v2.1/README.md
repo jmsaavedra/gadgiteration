@@ -17,3 +17,9 @@ gadgIteration hardware v2.1
 * A2 - SENSOR 1
 * A3 - SENSOR 2
 * A4 - SENSOR 3
+
+###known bugs, updates for v2.2 or v3.0###
+
+* PWR switch should be implemented, if we want an external power switch on enclosure.
+* RANGE button should be moved to D3, so that we can use it as an interrupt
+  * (attachInterrupts)[http://arduino.cc/en/Reference/attachInterrupt]
