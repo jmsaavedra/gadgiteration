@@ -22,4 +22,4 @@ gadgIteration hardware v2.1
 
 * PWR switch should be implemented, if we want an external power switch on enclosure.
 * RANGE button should be moved to D3, so that we can use it as an interrupt
-  * (attachInterrupts)[http://arduino.cc/en/Reference/attachInterrupt]
+  * [attachInterrupts](http://arduino.cc/en/Reference/attachInterrupt)
