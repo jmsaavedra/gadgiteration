@@ -161,7 +161,6 @@
 <text x="20.574" y="0.889" size="1.016" layer="21" ratio="15">14</text>
 <text x="18.034" y="0.889" size="1.016" layer="21" ratio="15">16</text>
 <text x="15.494" y="0.889" size="1.016" layer="21" ratio="15">10</text>
-<text x="5.461" y="6.604" size="1.016" layer="21" ratio="15">Pro</text>
 <text x="21.082" y="17.272" size="1.27" layer="27">Valid combinations:</text>
 <text x="21.082" y="14.732" size="1.27" layer="27">3.3V Reg / 8MHz</text>
 <text x="21.082" y="12.192" size="1.27" layer="27">5V Reg / 16MHz</text>
@@ -169,7 +168,6 @@
 <text x="3.429" y="31.115" size="0.8128" layer="21" ratio="15" rot="R90">J1</text>
 <rectangle x1="9.144" y1="9.5885" x2="9.3345" y2="9.7155" layer="41"/>
 <rectangle x1="13.081" y1="13.589" x2="13.1445" y2="13.6525" layer="41"/>
-<text x="8.255" y="6.604" size="1.016" layer="21" ratio="15">Micro</text>
 <polygon width="0.2032" layer="41">
 <vertex x="8.86968125" y="10.26668125"/>
 <vertex x="12.49171875" y="13.88871875"/>
@@ -1066,8 +1064,8 @@ design rules under a new name.</description>
 <element name="R7" library="SparkFun-Passives" package="1206" value="22" x="16.51" y="28.956" rot="R180"/>
 <element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="31.242" y="19.939"/>
 <element name="JP2" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="14.478" y="1.27"/>
-<element name="JP3" library="SparkFun-Connectors" package="USB-B-PTH" value="USB-B" x="38.1" y="36.83" rot="R270">
-<attribute name="PROD_ID" value="CONN-08278" x="38.1" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="JP3" library="SparkFun-Connectors" package="USB-B-PTH" value="USB-B" x="38.1" y="49.53" rot="R270">
+<attribute name="PROD_ID" value="CONN-08278" x="38.1" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="burr-brown" package="SOT223" value="REG1117" x="69.85" y="17.78">
 <attribute name="OC_NEWARK" value="14P6981" x="69.85" y="17.78" size="1.778" layer="27" display="off"/>
@@ -1190,7 +1188,7 @@ design rules under a new name.</description>
 <wire x1="1.27" y1="25.4" x2="1.27" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="27.8287" y1="29.098240625" x2="27.238475" y2="20.333959375" width="0" layer="19" extent="1-1"/>
 <wire x1="27.94" y1="36.83" x2="27.8287" y2="29.098240625" width="0" layer="19" extent="1-1"/>
-<wire x1="36.85" y1="36.83" x2="27.94" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="36.85" y1="49.53" x2="27.94" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AREF">
 <contactref element="C1" pad="2"/>
@@ -1447,7 +1445,7 @@ design rules under a new name.</description>
 <contactref element="C6" pad="2"/>
 <contactref element="JP3" pad="VBUS"/>
 <contactref element="F2" pad="1"/>
-<wire x1="25.0287" y1="29.098240625" x2="36.85" y2="34.8488" width="0" layer="19" extent="1-1"/>
+<wire x1="25.0287" y1="29.098240625" x2="36.85" y2="47.5488" width="0" layer="19" extent="1-1"/>
 <wire x1="37.97" y1="29.21" x2="25.0287" y2="29.098240625" width="0" layer="19" extent="1-1"/>
 <wire x1="23.561521875" y1="20.333959375" x2="37.97" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="20.73309375" y1="17.50553125" x2="23.561521875" y2="20.333959375" width="0" layer="19" extent="1-1"/>
@@ -1494,12 +1492,12 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="JP3" pad="D+"/>
 <contactref element="R5" pad="2"/>
-<wire x1="20.19" y1="29.02711875" x2="39.35" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="20.19" y1="29.02711875" x2="39.35" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="JP3" pad="D-"/>
 <contactref element="R7" pad="2"/>
-<wire x1="15.11" y1="28.956" x2="39.35" y2="34.8488" width="0" layer="19" extent="1-1"/>
+<wire x1="15.11" y1="28.956" x2="39.35" y2="47.5488" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="LED2" pad="A"/>

@@ -11548,27 +11548,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheets>
 <sheet>
 <plain>
-<text x="47.244" y="14.732" size="1.778" layer="94">Original Arduino Mini Design by Team Arduino</text>
-<text x="32.004" y="12.192" size="1.778" layer="94">Arduino Pro Mini Design by Spark Fun Electronics</text>
-<text x="223.52" y="106.68" size="1.778" layer="91">Not used</text>
-<text x="223.52" y="104.14" size="1.778" layer="91">Not used</text>
-<text x="223.52" y="101.6" size="1.778" layer="91">Not used</text>
-<text x="218.44" y="144.78" size="1.778" layer="91">Not used</text>
-<text x="218.44" y="147.32" size="1.778" layer="91">Not used</text>
+<text x="32.004" y="12.192" size="1.778" layer="94">Original Arduino Mini Design by Team Arduino</text>
 <text x="32.004" y="9.652" size="1.778" layer="94">Pro Micro Design by Spark Fun Electronics</text>
-<text x="251.46" y="180.34" size="1.778" layer="97">Changes on v1.1:</text>
-<text x="251.46" y="177.8" size="1.778" layer="97">Corrected silk on D14</text>
-<text x="251.46" y="175.26" size="1.778" layer="97">Change to 500mA regulator</text>
-<text x="251.46" y="172.72" size="1.778" layer="97">Added fuse and diode protection</text>
-<text x="251.46" y="170.18" size="1.778" layer="97">Changed LEDs to be tied to VCC</text>
-<text x="251.46" y="165.1" size="1.778" layer="97">Changes on v1.2:</text>
-<text x="251.46" y="162.56" size="1.778" layer="97">Updated package on USB micro B (2 new pads)</text>
-<text x="251.46" y="157.48" size="1.778" layer="97">Changes on v1.3:</text>
-<text x="251.46" y="154.94" size="1.778" layer="97">Updated QFN package on 32U4 to be 1:1</text>
-<text x="251.46" y="152.4" size="1.778" layer="97">Updated symbol of 32U4 in schematic (switched MISO and SS placement)</text>
-<text x="251.46" y="149.86" size="1.778" layer="97">Renamed SS net to D14 (from D17)</text>
-<text x="251.46" y="147.32" size="1.778" layer="97">Routed directly inward or outward from each leg on the IC</text>
-<text x="251.46" y="144.78" size="1.778" layer="97">Added two small squares of tRestrict to keep the ground plane away from the sides of IC legs</text>
 <text x="119.38" y="10.16" size="2.54" layer="94">v3.0</text>
 <text x="10.16" y="177.8" size="2.54" layer="94" ratio="10">power regulation</text>
 <text x="60.96" y="121.92" size="2.54" layer="94" ratio="10">pin outs</text>
@@ -11577,9 +11558,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="256.54" y="132.08" size="2.54" layer="94" ratio="10">amplifier</text>
 <text x="279.4" y="78.74" size="2.54" layer="94" ratio="10">sensors and pull-downs</text>
 <text x="154.94" y="66.04" size="2.54" layer="94" ratio="10">ICSP</text>
-<text x="15.24" y="67.31" size="2.54" layer="94">Buttons</text>
-<text x="208.534" y="39.37" size="2.54" layer="94">Mode/Human Circuit Switch</text>
-<text x="173.99" y="20.574" size="1.778" layer="94">Human vs Normal </text>
+<text x="168.91" y="18.034" size="1.778" layer="94">Human vs Normal 
+Indicator LEDs</text>
+<text x="15.24" y="66.04" size="2.54" layer="94" ratio="10">buttons</text>
+<text x="213.36" y="38.1" size="2.54" layer="94" ratio="10">sensor poles</text>
+<text x="220.98" y="2.54" size="1.778" layer="94" ratio="10">human circuit</text>
+<text x="220.98" y="15.24" size="1.778" layer="94" ratio="10">regular circuit</text>
+<text x="220.98" y="27.94" size="1.778" layer="94" ratio="10">power</text>
+<text x="32.004" y="14.732" size="1.778" layer="94">Gadgiteration Noisemaker v3.0</text>
 </plain>
 <instances>
 <instance part="R2" gate="G$1" x="152.4" y="165.1" rot="R90"/>
@@ -12614,4 +12600,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
