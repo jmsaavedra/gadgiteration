@@ -1,4 +1,8 @@
-#some general ignore patterns
+
+###################################
+# general ignore patterns
+###################################
+
 build/
 obj/
 *.o
@@ -9,66 +13,131 @@ Release*/
 *.pyc
 .svn/
 
+###################################
+# IDE specific
+###################################
 
-#XCode
+# XCode
 *.pbxuser
 *.perspective
 *.perspectivev3
 *.mode1v3
 *.mode2v3
-#XCode 4
+
+# XCode 4
 xcuserdata
 *.xcworkspace
 
-#Code::Blocks
+# Code::Blocks
 *.depend
 *.layout
 
-#Visual Studio
+# Visual Studio
 *.sdf
 *.opensdf
 *.suo
 ipch/
 
-#Eclipse
+# Eclipse
 .metadata
 local.properties
 .externalToolBuilders
 
 
-# OS-specific ignore patterns
+###################################
+# OS Specific
+###################################
 
-#Linux
+# Linux
 *~
 # KDE
 .directory
 
-#OSX
+# OSX
 .DS_Store
 *.swp
 *~.nib
 # Thumbnails
 ._*
 
-#Windows
+# Windows
 # Windows image file caches
 Thumbs.db
 # Folder config file
 Desktop.ini
 
-#Android
+# Android
 .csettings
 /libs/openFrameworksCompiled/project/android/paths.make
 
-# Miscellaneous
+###################################
+# Misc filetypes
+###################################
+
 .mailmap
 *.mov
 
-#node.js
+###################################
+# EAGLE Cad
+###################################
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+#eagle.epf
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+*.dri
+*.drl
+*.gpi
+*.pls
+*.drd
+*.drd.*
+*.info
+*.eps
+
+###################################
+# Node.js
+###################################
 
 /node_modules
+lib-cov
+lcov.info
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+build
+.grunt
 
-#app specific 
+###################################
+# App Specific 
+###################################
 
-/.assets
 
+
+
+
+###################################
+# official gitignore repo:
+# http://github.com/github/gitignore
