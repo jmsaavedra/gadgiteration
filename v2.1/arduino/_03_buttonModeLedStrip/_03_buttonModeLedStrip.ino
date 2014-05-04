@@ -47,7 +47,7 @@ void loop(){
     currentVal = analogRead(gadgitCircuitIn);      
     //TODO: map currentVal to 0-1000 or 0-100 or something even
 
-    colorWipe(100, currentVal);
+    colorWipe(strip.Color(0,255,200), currentVal); //color bar at blue/green
 
     Serial.print("GADGIT currentVal:\t");
     Serial.println(currentVal);
@@ -59,7 +59,7 @@ void loop(){
     currentVal = analogRead(humanCircuitIn);
     //TODO: map currentVal to 0-1000 or 0-100 or something even
 
-    colorWipe(127, currentVal);
+    colorWipe(strip.Color(255,0,127), currentVal); //color bar at purple
 
     Serial.print("HUMAN currentVal:\t");
     Serial.println(currentVal);

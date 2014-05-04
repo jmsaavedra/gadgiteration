@@ -7,7 +7,7 @@ void colorWipe(uint32_t c, int val) {
   int numLedsToLight = int(val/100);
  
   for(uint16_t i=0; i<numLedsToLight; i++) {
-      strip.setPixelColor(i, strip.Color(0,c,0));
+      strip.setPixelColor(i, c);
   }
   
   for(uint16_t i=numLedsToLight; i<strip.numPixels(); i++) {
