@@ -10259,6 +10259,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="VCC" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+12" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+14" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
+<part name="JP8" library="SparkFun-Connectors" deviceset="M01" device="PTH_LONGPAD" value="M01PTH_LONGPAD"/>
 </parts>
 <sheets>
 <sheet>
@@ -10281,6 +10282,9 @@ Indicator LEDs</text>
 <text x="220.98" y="15.24" size="1.778" layer="94" ratio="10">regular circuit</text>
 <text x="220.98" y="27.94" size="1.778" layer="94" ratio="10">power</text>
 <text x="263.144" y="174.752" size="1.778" layer="94">Gadgiteration Noisemaker v3.0</text>
+<text x="205.74" y="154.94" size="1.778" layer="94">sensor1</text>
+<text x="205.74" y="152.4" size="1.778" layer="94">sensor1</text>
+<text x="205.74" y="149.86" size="1.778" layer="94">sensor1</text>
 </plain>
 <instances>
 <instance part="R2" gate="G$1" x="152.4" y="165.1" rot="R90"/>
@@ -10445,6 +10449,7 @@ Indicator LEDs</text>
 <instance part="P+14" gate="G$1" x="38.354" y="50.546" smashed="yes" rot="R180">
 <attribute name="VALUE" x="40.64" y="47.244" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="JP8" gate="G$1" x="114.3" y="162.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10766,6 +10771,8 @@ Indicator LEDs</text>
 <pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="68.58" y1="154.94" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
 <junction x="68.58" y="162.56"/>
+<pinref part="JP8" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
