@@ -1433,9 +1433,7 @@ design rules under a new name.</description>
 <signal name="D6">
 <contactref element="JP7" pad="4"/>
 <contactref element="U3" pad="27"/>
-<contactref element="LED_STRIP" pad="2"/>
-<wire x1="1.27" y1="9.398" x2="-25.4" y2="1.27" width="0" layer="19" extent="1-1"/>
-<wire x1="10.57309375" y1="10.434465625" x2="1.27" y2="9.398" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="9.398" x2="10.57309375" y2="10.434465625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
 <contactref element="JP7" pad="3"/>
@@ -1588,6 +1586,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$11">
 <contactref element="LED_STRIP" pad="3"/>
+</signal>
+<signal name="N$14">
+<contactref element="LED_STRIP" pad="2"/>
 </signal>
 </signals>
 </board>

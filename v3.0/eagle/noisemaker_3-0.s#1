@@ -11209,6 +11209,9 @@ Indicator LEDs</text>
 <pinref part="U3" gate="G$1" pin="PD7(ADC10)"/>
 </segment>
 <segment>
+<wire x1="195.58" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="LED_STRIP" gate="A" pin="2"/>
 <wire x1="271.78" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
 <label x="246.38" y="78.74" size="1.778" layer="95"/>
