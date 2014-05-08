@@ -185,8 +185,8 @@
 <text x="55.88" y="7.62" size="1.778" layer="25" ratio="13" rot="R90">noisemaker</text>
 <text x="55.753" y="23.495" size="1.27" layer="25" ratio="13" rot="R90">v3.0</text>
 <text x="52.959" y="8.382" size="1.778" layer="25" ratio="18" rot="R90">gadgIteration</text>
-<text x="10.16" y="43.688" size="1.27" layer="16" rot="MR90">gadgiteration.org</text>
-<text x="58.42" y="47.498" size="1.27" layer="16" rot="MR90">L.Campbell
+<text x="10.16" y="42.418" size="1.27" layer="16" rot="MR90">gadgiteration.org</text>
+<text x="57.15" y="42.418" size="1.27" layer="16" rot="MR90">L.Campbell
 J.Brucker-Cohen
 K.Moriwaki
 J.McDonald
@@ -197,6 +197,8 @@ J.Saavedra</text>
 <text x="8.255" y="7.747" size="1.016" layer="25" align="center">open
 hardware</text>
 <text x="74.803" y="29.464" size="1.27" layer="25" ratio="13" rot="R90">USB</text>
+<text x="21.844" y="0.889" size="1.27" layer="25">+</text>
+<text x="31.75" y="2.54" size="1.27" layer="25" rot="R180">_</text>
 </plain>
 <libraries>
 <library name="SparkFun">
