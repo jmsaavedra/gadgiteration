@@ -10731,17 +10731,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="1uF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="P+5" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1M"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1M"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="22k"/>
 <part name="NPN" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="AMP-" library="SparkFun-Connectors" deviceset="M01" device="PTH_LONGPAD"/>
 <part name="AMP+" library="SparkFun-Connectors" deviceset="M01" device="PTH_LONGPAD"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="SENSOR1" library="photo-elements" deviceset="M9960_11" device="" technology="B"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
-<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="10k"/>
 <part name="SENSOR2" library="photo-elements" deviceset="M9960_11" device="" technology="B"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
@@ -10766,8 +10766,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
-<part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="330"/>
+<part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="330"/>
 <part name="POLE3" library="SparkFun-Connectors" deviceset="M01" device="PTH_LONGPAD"/>
 <part name="P+13" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="VCC" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
