@@ -1,0 +1,66 @@
+Partlist
+
+Exported from noisemaker_3-0.brd at 5/27/14 12:21 AM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part       Value             Package                   Library               Position (inch)       Orientation
+
+AMP+       M01PTH_LONGPAD    1X01_LONGPAD              SparkFun-Connectors   (1.55 0.1)            R0
+AMP-       M01PTH_LONGPAD    1X01_LONGPAD              SparkFun-Connectors   (1.8 0.1)             R0
+ATMEGA32U4 ATMEGA32U4        SPARKFUN-DIGITALIC_TQFP44 SparkFun-DigitalIC    (0.75 0.55)           R225
+C1         0.1uF             1206                      SparkFun-Capacitors   (0.6865 0.11560002)   R90
+C2         22pF              0603-CAP                  SparkFun              (0.295 0.675)         R180
+C4         22pF              0603-CAP                  SparkFun              (0.305 1.1)           R0
+C5         1uF               1206                      SparkFun-Capacitors   (0.4560999 0.11900025) R90
+C6         1uF               1206                      SparkFun-Capacitors   (0.5705 0.11560002)   R90
+C7         10uF              EIA3528-KIT               SparkFun-Capacitors   (2.35 0.1)            R0
+C8         10uF              EIA3528-KIT               SparkFun-Capacitors   (2.35 0.25)           R0
+C9         1uF               1206                      SparkFun-Capacitors   (2.45 0.75)           R0
+C11        0.1uF             1206                      SparkFun-Capacitors   (2.45 0.85)           R180
+D4                           SOD-323                   SparkFun              (2.455 0.43)          R180
+F2         500mA             PTC-1206                  SparkFun              (2.44 1.19)           R180
+IC1        REG1117           SOT223                    burr-brown            (2.8 0.6)             R270
+ICSP       AVR_SPI           2X3                       SparkFun              (0.735 0.995)         R0
+JP1        FIDUCIALUFIDUCIAL MICRO-FIDUCIAL            SparkFun              (0.08 1.485)          R0
+JP2        FIDUCIALUFIDUCIAL MICRO-FIDUCIAL            SparkFun              (2.92 0.8)            R0
+JP3        USB-B             USB-B-PTH                 SparkFun-Connectors   (2.805 1.23)          R180
+JP4        M01PTH            1X01                      SparkFun-Connectors   (2.04 0.255)          R0
+JP7                          1X12                      SparkFun              (0.055 0.055)         MR90
+JP8        M01PTH_LONGPAD    1X01_LONGPAD              SparkFun-Connectors   (2.9 1.7)             R0
+LED1                         LED3MM                    adafruit              (1.25 1.05)           R270
+LED2                         LED3MM                    adafruit              (1.8 1.05)            R90
+MODE                         B3F-10XX                  switch-omron          (1.2 1.35)            R0
+NEOPIXEL                     1X03_LONGPADS             SparkFun-Connectors   (0.95 0.105)          R0
+NPN                          SOT23-3                   SparkFun-DiscreteSemi (2.05 0.12)           R180
+POLE1      M01PTH_LONGPAD    1X01_LONGPAD              SparkFun-Connectors   (0.75 1.35)           R0
+POLE2      M01PTH_LONGPAD    1X01_LONGPAD              SparkFun-Connectors   (2.4 1.35)            R0
+POLE3      M01PTH_LONGPAD    1X01_LONGPAD              SparkFun-Connectors   (0.1 1.7)             R0
+PWR        Red               CHIPLED_1206              adafruit              (2.28 0.575)          R0
+R1         1K                1206                      SparkFun-Passives     (2.45 0.65)           R0
+R2         10K               1206                      SparkFun-Passives     (1.08 1.055)          R90
+R3         1M                1206                      SparkFun-Passives     (1.55 0.35)           R270
+R4         330               1206                      SparkFun-Passives     (1.28 0.62)           R270
+R5         22                1206                      SparkFun-Passives     (2.445 0.95279995)    R0
+R6         330               1206                      SparkFun-Passives     (0.49 1.13)           R90
+R7         22                1206                      SparkFun-Passives     (2.445 1.06)          R0
+R8         1M                1206                      SparkFun-Passives     (2.45 0.55)           R0
+R9         22k               1206                      SparkFun-Passives     (1.765 0.35)          R270
+R10        10k               1206                      SparkFun-Passives     (1.5 1.15)            R180
+R11        10k               1206                      SparkFun-Passives     (2.15 1.265)          R180
+R12        2M                1206                      SparkFun-Passives     (0.32 1.4)            R90
+R13        1k                1206                      SparkFun-Passives     (0.48 1.4)            R270
+R14        330               1206                      SparkFun-Passives     (2.155 1.14)          R0
+R15        10k               1206                      SparkFun-Passives     (1.33 0.1)            R180
+R18        330               1206                      SparkFun-Passives     (1.5 1.05)            R0
+R19        10k               1206                      SparkFun-Passives     (1.33 0.305)          R180
+RANGE                        B3F-10XX                  switch-omron          (1.8 1.35)            R0
+RX         Green             CHIPLED_1206              adafruit              (0.585 1.13)          R0
+SENS3                        1X03_PP_HOLES_ONLY        SparkFun-Connectors   (1.6 0.6)             R90
+SENSOR1    M9960_11B         M9960                     photo-elements        (1.865 0.6)           R180
+SENSOR2    M9960_11B         M9960                     photo-elements        (1.865 0.8)           R180
+TX         Yellow            CHIPLED_1206              adafruit              (1.385 0.61)          R180
+U$1        2.1MMJACKTHM      PJ-102A                   adafruit              (3.01 0.18)           R270
+XTAL       16MHz             CRYSTAL-SMD-5X3           SparkFun              (0.31 0.885)          R270
