@@ -1,7 +1,7 @@
 board ID,Qty,Value,Device,Package,Parts,Atmel 44-pin 8-bit Microcontroller ,link,MF,MPN
 ATMEGA32U4,1,ATMEGA32U4,ATMEGA32U4TQFP,SPARKFUN-DIGITALIC_TQFP44,ATMEGA32U4,Atmel 44-pin 8-bit Microcontroller,https://www.sparkfun.com/products/11181,,
 D4,1,,DIODESOD,SOD-323,D4,Diode,http://www.mouser.com/ProductDetail/Vishay-Semiconductors/BAS16WS-E3-08/?qs=sGAEpiMZZMtoHjESLttvkjs26zymxl2FmdRhBgbJB6I%3d,,
-NPN,1,DNP,DO NOT POPULATE,SOT23-3,NPN,DO NOT POPULATE,,,
+NPN,1,DNP,TRANSISTOR_NPNSOT23-3,SOT23-3,NPN,Generic NPN BJT. MMBT2222 is the common,https://www.mouser.com/Search/ProductDetail.aspx?R=BC817-40W-7virtualkey62110000virtualkey621-BC817-40W-7,,
 "C2, C4",2,18pF,CAP0603-CAP,0603-CAP,C2,C4,http://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ0603A220JXACW1BC/?qs=sGAEpiMZZMs0AnBnWHyRQMqfda103KBdBdiLJaMBFC0%3d,Capacitor,
 "C1, C11",2,0.1uF,CAP1206,1206,C1,C11,http://www.mouser.com/ProductDetail/Vishay-Vitramon/VJ1206Y104KXJPW1BC/?qs=sGAEpiMZZMsh%252b1woXyUXj6PM%2f%2fcC4pAy%252bXLcdZqqK84%3d,Capacitor,
 "C7, C8",2,10uF,CAP_POL3528-KIT,EIA3528-KIT,C7,C8,https://www.mouser.com/ProjectManager/ProjectDetail.aspx?State=EDIT&ProjectGUID=7291d7cc-bc55-407c-b9f9-88f5a82c9210,Capacitor Polarized,
@@ -14,7 +14,7 @@ R9,1,22k,RESISTOR1206,1206,R9,Resistor,https://www.mouser.com/Search/ProductDeta
 R12,1,2M,RESISTOR1206,1206,R12,Resistor,https://www.mouser.com/Search/ProductDetail.aspx?R=RV1206FR-072MLvirtualkey60120000virtualkey603-RV1206FR-072ML,,
 "R4, R6, R14, R18",4,330,RESISTOR1206,1206,R4,R6,https://www.mouser.com/Search/ProductDetail.aspx?R=CRCW1206330RJNEBvirtualkey61300000virtualkey71-CRCW1206330RJNEB,R14,R18
 F2,1,500mA,PTCSMD,PTC-1206,F2,Resettable Fuse PTC,https://www.mouser.com/Search/ProductDetail.aspx?R=PTS120624V020virtualkey50400000virtualkey504-PTS120624V020,,
-IC1,1,REG1117,REG1117,SOT223,IC1,800mA and 1A Low Dropout (LDO) Positive Regulator,https://www.mouser.com/Search/ProductDetail.aspx?R=AZ1117H-5.0TRE1virtualkey62110000virtualkey621-AZ1117H-5.0TRE1,,REG1117
+VREG,1,7805DT,VOLTAGE REGULATOR,TO252,VREG,Voltage Regulator,http://www.mouser.com/Search/ProductDetail.aspx?R=MC7805BDTGvirtualkey58410000virtualkey863-MC7805BDTG,,REG1117
 XTAL,1,16MHz,CRYSTAL5X3,CRYSTAL-SMD-5X3,XTAL,Crystals,https://www.mouser.com/Search/ProductDetail.aspx?R=ABM3C-16.000MHZ-D4Y-Tvirtualkey52750000virtualkey815-ABM3C-16-D4YT,,
 USB,1,USB-B,USBPTH,USB-B-PTH,JP3,USB Connectors,https://www.mouser.com/Search/ProductDetail.aspx?R=154-2442-Evirtualkey11180000virtualkey154-2442-E,,
 RX,1,Blue,LEDCHIPLED_1206,CHIPLED_1206,TX,LED,https://www.mouser.com/Search/ProductDetail.aspx?R=LTST-C150TBKTvirtualkey57820000virtualkey859-LTST-C150TBKT,,
